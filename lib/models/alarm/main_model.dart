@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 
-enum nu { start, stop }
+enum status { start, stop }
 
 class Model extends GetxController {
   List<Alarm> _alarms = [];
